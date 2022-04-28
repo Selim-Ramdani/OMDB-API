@@ -3,7 +3,7 @@ const submit = document.getElementById("submit");
 const selector = document.getElementById('main');
 
 const loadMovies = () => {
-  const url = `http://www.omdbapi.com/?s=${input.value}&page=2&apikey=ff461133`
+  const url = `http://www.omdbapi.com/?s=${input.value}&page=2&apikey=77172318`
 
   fetch(url, {
     method: "POST",
@@ -44,7 +44,7 @@ const showMovie = (selector, image, title, date, id) => {
 }
 
 const showLearnMore =  async function (id) {
-  const urlById = await fetch(`http://www.omdbapi.com/?i=${id}&page=2&apikey=ff461133`)
+  const urlById = await fetch(`http://www.omdbapi.com/?i=${id}&page=2&apikey=77172318`)
   const movieDetails = await urlById.json();
   const image = movieDetails.Poster;
   const title = movieDetails.Title;
