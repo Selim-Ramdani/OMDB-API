@@ -1,7 +1,7 @@
 {
   "name": "OMDB-API-NEXT",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "git@github.com:Selim-Ramdani/OMDB-API.git",
   "author": "curlyroots <selimcodeur@gmail.com>",
   "license": "MIT"
